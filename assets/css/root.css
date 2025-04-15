@@ -1,0 +1,102 @@
+:root {
+    --font-family-primary: "Articulat CF";
+    --text-sm: 14px;
+    --text-base: 21.64px;
+    --text-md: 24px;
+    --text-lg: 36px;
+    --text-xl: 54px;
+    --color-sky: #D4E5FF;
+    --color-blue: #11222C;
+    --color-dark-blue:#142B38B2;
+    --color-light-blue:#142B38;
+    --color-white: #FFFFFF;
+    --color-white-1:#F2F7F9;
+    --color-red:#9A0000;
+}
+
+.dark {
+    --color-sky: white;
+    --color-blue: black;
+    --color-dark-blue: black;
+    --color-light-blue: white;
+    --color-white: #FFFFFF;
+}
+
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+.font-family-secondary {
+    font-family: var(--font-family-secondary);
+}
+
+.text-sm {
+    font-size: var(--text-sm);
+}
+
+.text-base {
+    font-size: var(--text-base);
+}
+
+.text-md {
+    font-size: var(--text-md);
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+}
+
+.text-xl {
+    font-size: var(--text-xl);
+}
+
+.color-sky {
+    color: var(--color-sky);
+}
+.color-red{
+    background:var(--color-red);
+}
+.color-blue {
+    color: var(--color-blue);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+.color-white-1 {
+    color: var(--color-white-1);
+}
+
+.color-light-blue {
+    color: var(--color-light-blue);
+}
+
+.color-dark-blue {
+    color: var(--color-dark-blue);
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+.bg-dark-blue {
+    background-color: var(--color-dark-blue);
+}
+
+.bg-light-blue {
+    background-color: var(--color-light-blue);
+}
+
+
+@media (max-width:991.98px) {
+    :root {
+        --text-xl: 40px;
+    }
+}
+
+@media (max-width:767.98px) {
+    :root {
+        --text-xl: 32px;
+        --text-lg: 32px;
+    }
+}
