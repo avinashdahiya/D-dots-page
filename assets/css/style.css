@@ -32,6 +32,16 @@
     background-position: center;
 }
 
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+    z-index: 10;
+    background-color: transparent;
+    border: none;
+}
+
 /* brand */
 .bg-brand {
     background-image: url(../image/png/moon\ section.png);
